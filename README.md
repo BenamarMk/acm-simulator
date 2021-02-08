@@ -18,7 +18,7 @@ You can also specify non default arguments as shown.
 * **--app:** the path location of the app resources
 * **--ramen:** is the path location of the ramen custom resource
 ```
-acm-simulator.sh --pvpath
+acm-simulator.sh --pvpath /path/to/pv-backups
 ```
 This command will deploy a wordpress application usging the default app location, ramencr, and cluster config.  The **--pvpath** is used for deploying the backup PVs during the failover/failback.
 
