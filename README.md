@@ -20,7 +20,7 @@ You can also specify non default arguments as shown.
 ```
 acm-simulator.sh --pvpath /path/to/pv-backups
 ```
-This command will deploy a wordpress application usging the default app location, ramencr, and cluster config.  The **--pvpath** is used for deploying the backup PVs during the failover/failback.
+This command will deploy a wordpress application using the default app location, ramen cr, and cluster config.  The **--pvpath** is for deploying the backup up PVs during the failover/failback.
 
 For more details, look at the full documentation [here](https://github.com/BenamarMk/acm-simulator/blob/main/docs/details.md)
 
