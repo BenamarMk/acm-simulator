@@ -18,5 +18,5 @@ acm-simulator.sh --pvpath
 ```
 This command will deploy a wordpress application usging the default app location, ramencr, and cluster config.  The **--pvpath** is used for deploying the backup PVs during the failover/failback.
 
-For more details, look at the full documentation [here](https://github.com/BenamarMk/acm-simulator)
+For more details, look at the full documentation [here](https://github.com/BenamarMk/acm-simulator/blob/main/docs/details.md)
 
