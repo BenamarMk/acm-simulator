@@ -1,4 +1,8 @@
 # A script that simulate ACM interaction with managed clusters.
+## Clone Repository
+```
+https://github.com/BenamarMk/acm-simulator.git
+```
 ## Basic Usage
 ```
 acm-simulator.sh
