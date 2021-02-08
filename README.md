@@ -1,2 +1,6 @@
-# acm-simulator
-This README will detail the steps needed to deploy a wordpress application to simulate ACM interaction with Ramen.  The application consists of two PODs; mysql and wordpress.
+# A script that simulate ACM interaction with managed clusters.
+## Basic Usage
+```
+acm-simulator.sh
+```
+This will install a sample application in a managed cluster. The sample application is found under  
