@@ -1,0 +1,12 @@
+# Ramen
+kind: VolumeReplicationGroup
+metadata:
+    name: volume-replication-group
+    Labels:
+      app: "wordpress-F9EBEE89-BD33-414B-85FE-4348A3949B75"
+Spec:
+    #protocol: http/scp
+    protocol: scp
+    
+    #pvpath: <server.fqdn:/path/to/directory>
+    pvpath: acmserver.thedomain:/path/to/pvbackups/
